@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#f7fbfe"/>
+  <text x="640" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#0f3b5f">Comparacion de tipos de red</text>
+  <rect x="90" y="170" width="320" height="420" rx="22" fill="#ffffff" stroke="#0077cc" stroke-width="4"/>
+  <rect x="480" y="170" width="320" height="420" rx="22" fill="#ffffff" stroke="#12a4ff" stroke-width="4"/>
+  <rect x="870" y="170" width="320" height="420" rx="22" fill="#ffffff" stroke="#2ecc71" stroke-width="4"/>
+  <text x="250" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#0077cc">LAN</text>
+  <text x="640" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#12a4ff">MAN</text>
+  <text x="1030" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#2ecc71">WAN</text>
+  <text x="250" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" fill="#334155">Alta velocidad</text>
+  <text x="250" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" fill="#334155">Costo moderado</text>
+  <text x="250" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" fill="#334155">Control local</text>
+  <text x="250" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#64748b">Escuela u oficina</text>
+  <text x="640" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" fill="#334155">Cobertura urbana</text>
+  <text x="640" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" fill="#334155">Varias sedes</text>
+  <text x="640" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" fill="#334155">Gestion central</text>
+  <text x="640" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#64748b">Universidad o alcaldia</text>
+  <text x="1030" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" fill="#334155">Larga distancia</text>
+  <text x="1030" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" fill="#334155">Mayor complejidad</text>
+  <text x="1030" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" fill="#334155">Cobertura global</text>
+  <text x="1030" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#64748b">Empresa multinacional</text>
+  <circle cx="250" cy="540" r="28" fill="#0077cc"/>
+  <circle cx="640" cy="540" r="28" fill="#12a4ff"/>
+  <circle cx="1030" cy="540" r="28" fill="#2ecc71"/>
+</svg>

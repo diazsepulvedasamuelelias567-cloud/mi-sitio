@@ -1,0 +1,216 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+  background-color: #f5f5f5;
+  color: #333333;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.contenedor {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+}
+
+.hero {
+  background: linear-gradient(135deg, #0077cc, #005d9e);
+  color: #ffffff;
+  padding: 56px 0;
+}
+
+.hero-contenido {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 24px;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  background-color: rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.etiqueta {
+  font-size: 0.88rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  color: #d8ecff;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 2.6rem;
+  line-height: 1.15;
+  margin-bottom: 12px;
+}
+
+.estudiante {
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.intro {
+  max-width: 760px;
+}
+
+.seccion {
+  padding: 44px 0;
+}
+
+.seccion h2 {
+  font-size: 2rem;
+  color: #0f3b5f;
+  margin-bottom: 18px;
+}
+
+.seccion h3 {
+  font-size: 1.25rem;
+  color: #0077cc;
+  margin-bottom: 14px;
+}
+
+.seccion p + p {
+  margin-top: 14px;
+}
+
+.presentacion,
+.conclusiones {
+  background-color: #ffffff;
+}
+
+.fondo-suave {
+  background-color: #eef6fc;
+}
+
+.imagen-destacada,
+.imagen-contenido {
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 14px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+.imagen-destacada img,
+.imagen-contenido img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #5b6470;
+}
+
+.grid-dos {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  align-items: start;
+}
+
+.lista-panel,
+.ventajas,
+.desventajas {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 22px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+}
+
+.lista-panel ul,
+.ventajas ul,
+.desventajas ul {
+  padding-left: 20px;
+}
+
+.lista-panel li,
+.ventajas li,
+.desventajas li {
+  margin-bottom: 10px;
+}
+
+.margen-superior {
+  margin-top: 24px;
+}
+
+.tabla-contenedor {
+  margin-top: 24px;
+  overflow-x: auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid #dfe8ef;
+}
+
+th {
+  background-color: #0077cc;
+  color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f7fbfe;
+}
+
+.pie {
+  background-color: #0f3b5f;
+  color: #ffffff;
+  text-align: center;
+  padding: 24px 0;
+}
+
+@media (max-width: 820px) {
+  .hero-contenido,
+  .grid-dos {
+    grid-template-columns: 1fr;
+  }
+
+  .logo {
+    margin: 0 auto;
+  }
+
+  .hero {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .seccion h2 {
+    font-size: 1.6rem;
+  }
+}
